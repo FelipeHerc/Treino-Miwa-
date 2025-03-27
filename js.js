@@ -1,4 +1,4 @@
-<script>
+
     function saveWorkout() {
         const currentProgram = document.querySelector('.training-program.active').id;
         const inputs = document.querySelectorAll(`#${currentProgram} .carga-input`);
@@ -37,4 +37,3 @@
     document.addEventListener('DOMContentLoaded', function() {
         loadWorkout();
     });
-</script>
